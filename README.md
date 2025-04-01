@@ -10,6 +10,7 @@ BioticV1 is an intelligent AI assistant that provides contextual answers based o
 - 📄 Support for multiple document formats
 
 ## How to use
+- Download and use Ollama LLM and Embedding model of your choice
 - setup the python local env `python -m venv venv`
 - activate local env `source venv/bin/activate` 
 - install requirements `pip install -r requirement.txt`
@@ -20,9 +21,9 @@ BioticV1 is an intelligent AI assistant that provides contextual answers based o
 - Now, its time to chunk, embed and save doc in chromadb... run `python Ingest.py` 
 - wait for some minute and and after chuck is done, start your chat app `python chat.py`
 
-To recap, this is a 3 step installation
-- Provide Links to `htmToPdf.py`
-- Ingestion to the db
-- Spawn up AI bot
+To recap, this is a 3 step initialization
+- Provide document links to `htmToPdf.py` url list
+- Run the `ingestion.py` src to ingest to the db
+- Spawn up AI bot 
 
 
